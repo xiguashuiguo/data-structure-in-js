@@ -1,0 +1,30 @@
+{
+  "name": "data-structure-in-js",
+  "version": "1.0.0",
+  "description": "本仓库用于记录常见数据结构与算法的JavaScript实现。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext --fix .js,.tsx src",
+    "fix": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiguashuiguo/data-structure-in-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiguashuiguo/data-structure-in-js/issues"
+  },
+  "homepage": "https://github.com/xiguashuiguo/data-structure-in-js#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-typescript": "^10.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "typescript": "^4.0.2"
+  }
+}
